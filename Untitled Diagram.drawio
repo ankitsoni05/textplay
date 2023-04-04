@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T04:53:46.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="20.7.2" etag="Htluw-N9F7w1B5rZjyNx" type="github"><diagram id="S9jHFQ01i-oqzqbiXe0I">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-04T05:20:03.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="20.7.2" etag="0a-pQzcEuDvxmc5ghiSN" type="github">
+  <diagram id="aZ2qmeFqI4qWOHrEQKQu" name="Page-1">
+    <mxGraphModel dx="1195" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-1" value="IRepository" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-6" value="Repository" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="400" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="S13Po5fPJ17fwzC4wzrP-6" target="S13Po5fPJ17fwzC4wzrP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="400" as="sourcePoint" />
+            <mxPoint x="430" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="S13Po5fPJ17fwzC4wzrP-6" target="S13Po5fPJ17fwzC4wzrP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="400" as="sourcePoint" />
+            <mxPoint x="430" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-9" value="Inside this repository we gonna have a DBContext a generic DbContext" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="395" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-10" value="Implements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="300" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-12" value="Application Independent / Generic / Can be used in any application" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="400" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-11" value="&lt;span style=&quot;&quot;&gt;A Generic Repo&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;with generic methods like :-&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Add()&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Remove()&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Get(Id)&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Find(predicate)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="S13Po5fPJ17fwzC4wzrP-12">
+          <mxGeometry x="20" y="115" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-22" value="Application Specific (In this case Products)" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="660" y="70" width="440" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-21" value="This IProductRepository will have operations very specific to products which are not part of Generic Repository for Eg:-&lt;br&gt;1. GetHighestSellingProducts()&lt;br&gt;2. GetLatestTrendingProducts()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="S13Po5fPJ17fwzC4wzrP-22">
+          <mxGeometry x="190" y="100" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-14" value="IProductRepository" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="S13Po5fPJ17fwzC4wzrP-22">
+          <mxGeometry x="17" y="120" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-16" value="ProductRepository" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="S13Po5fPJ17fwzC4wzrP-22">
+          <mxGeometry x="17" y="330" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="S13Po5fPJ17fwzC4wzrP-22" source="S13Po5fPJ17fwzC4wzrP-16" target="S13Po5fPJ17fwzC4wzrP-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="330" as="sourcePoint" />
+            <mxPoint x="340" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="S13Po5fPJ17fwzC4wzrP-22" source="S13Po5fPJ17fwzC4wzrP-16" target="S13Po5fPJ17fwzC4wzrP-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="330" as="sourcePoint" />
+            <mxPoint x="340" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#FF0000;" edge="1" parent="1" source="S13Po5fPJ17fwzC4wzrP-14" target="S13Po5fPJ17fwzC4wzrP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="260" as="sourcePoint" />
+            <mxPoint x="600" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="677.0000000000002" y="439.58000000000004" as="sourcePoint" />
+            <mxPoint x="460" y="439.58000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-25" value="Unit Of Work" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="377" y="550" width="450" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-27" value="IUnitOfWork" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="S13Po5fPJ17fwzC4wzrP-25">
+          <mxGeometry x="40" y="60" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-28" value="IUnitOfWork" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="S13Po5fPJ17fwzC4wzrP-25">
+          <mxGeometry x="40" y="250" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="S13Po5fPJ17fwzC4wzrP-25" source="S13Po5fPJ17fwzC4wzrP-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="115" y="240" as="sourcePoint" />
+            <mxPoint x="114.58000000000027" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S13Po5fPJ17fwzC4wzrP-30" value="IProductRepository Products { get; }&lt;br&gt;Void Complete();" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="S13Po5fPJ17fwzC4wzrP-25">
+          <mxGeometry x="197" y="55" width="223" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
