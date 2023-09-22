@@ -1,9 +1,202 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T06:02:20.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.1.4" etag="yW9u2rc52CMLYayPU46U" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-22T06:29:22.834Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="mrRRvKKFXY7wF2mx1gSS" version="21.1.4" type="github">
   <diagram name="Page-1" id="U3CUrAaH_s7IP20sxiUO">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-77" value="Before Variant Amalgamation" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="900" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="20" y="30" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-28" value="Product Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="30" y="45" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-29" value="Variants" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="30" y="65" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-30" value="Red" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="30" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-31" value="Green" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="120" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-32" value="Blue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="210" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-37" value="Add To Basket" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="30" y="150" width="86" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="310" y="30" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-39" value="Product Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="320" y="45" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-40" value="Variants" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="320" y="65" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-41" value="Small" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="320" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-42" value="Large" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="410" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-43" value="XL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="500" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-44" value="Add To Basket" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="320" y="150" width="86" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="610" y="30" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-46" value="Product Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="620" y="45" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-47" value="Variants" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="620" y="65" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-48" value="Brand1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="620" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-49" value="Brand2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="710" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-50" value="Brand3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="800" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-51" value="Add To Basket" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-77">
+          <mxGeometry x="620" y="150" width="86" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-79" value="After Variant Amalgamation" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="960" y="40" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-79">
+          <mxGeometry x="10" y="30" width="280" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-67" value="Product Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-79">
+          <mxGeometry x="20" y="45" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-68" value="Variants" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-79">
+          <mxGeometry x="20" y="65" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-69" value="Red" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-79">
+          <mxGeometry x="20" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-70" value="Green" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-79">
+          <mxGeometry x="110" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-71" value="Blue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-79">
+          <mxGeometry x="200" y="105" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-72" value="Add To Basket" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-79">
+          <mxGeometry x="20" y="200" width="86" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-73" value="Size" style="rounded=1;fillColor=#F1F2F4;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#596780;align=left;fontSize=12;spacingLeft=10;sketch=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-79">
+          <mxGeometry x="20" y="150" width="80" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-74" value="" style="shape=triangle;direction=south;fillColor=#596780;strokeColor=none;html=1;sketch=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-73">
+          <mxGeometry x="1" y="0.5" width="12" height="6" relative="1" as="geometry">
+            <mxPoint x="-20" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-75" value="Brand" style="rounded=1;fillColor=#F1F2F4;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#596780;align=left;fontSize=12;spacingLeft=10;sketch=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-79">
+          <mxGeometry x="110" y="150" width="80" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-76" value="" style="shape=triangle;direction=south;fillColor=#596780;strokeColor=none;html=1;sketch=0;" vertex="1" parent="KVSTPuriQByDK2ZNN35Q-75">
+          <mxGeometry x="1" y="0.5" width="12" height="6" relative="1" as="geometry">
+            <mxPoint x="-20" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-81" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-83" value="Pastel Database&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Where BOM Are Managed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-85" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-86" value="Application Database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-90" value="Get Pastel BOM&#39;s to local sql Server DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="412.5" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-91" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KVSTPuriQByDK2ZNN35Q-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.5" y="380" as="sourcePoint" />
+            <mxPoint x="89.5" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="89.5" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-87" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="55" y="420" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-94" value="SQL Job for product creation." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-95" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-96" value="Prod &amp;amp; Variants in Product DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="510" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-97" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KVSTPuriQByDK2ZNN35Q-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="514.5" as="sourcePoint" />
+            <mxPoint x="140" y="514.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-98" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="KVSTPuriQByDK2ZNN35Q-96">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="525" as="sourcePoint" />
+            <mxPoint x="280" y="518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-99" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-100" value="Manual Management from Activecom" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-101" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KVSTPuriQByDK2ZNN35Q-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="354.5" y="370" as="sourcePoint" />
+            <mxPoint x="354.5" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-102" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-103" value="Render Produict on customer Facing App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="310" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-104" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="280" as="sourcePoint" />
+            <mxPoint x="960" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-105" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="300" as="sourcePoint" />
+            <mxPoint x="530" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVSTPuriQByDK2ZNN35Q-106" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.436;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KVSTPuriQByDK2ZNN35Q-102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="498" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
